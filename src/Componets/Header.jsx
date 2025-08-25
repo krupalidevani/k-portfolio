@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 
 export default function Header() {
@@ -10,10 +10,31 @@ export default function Header() {
       section.scrollIntoView({ behavior: "smooth" });
     }
   };
+  const [showHeader, setShowHeader] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  const controlHeader = () => {
+    if (window.scrollY > lastScrollY) {
+      // Scrolling down → hide header
+      setShowHeader(false);
+    } else {
+      // Scrolling up → show header
+      setShowHeader(true);
+    }
+    setLastScrollY(window.scrollY);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", controlHeader);
+    return () => {
+      window.removeEventListener("scroll", controlHeader);
+    };
+  }, [lastScrollY]);
+
     
     return (
         <>
-            <header>
+            <header className={`header ${showHeader ? "show" : "hide"}`}>
                 <div className="container">
                     <div className="h-row">
                         <div className="logo">

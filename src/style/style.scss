@@ -116,10 +116,20 @@ li {
 header {
     padding-block: 20px;
     background-color: #141410;
-    position: sticky;
+    position: fixed;
+    width: 100%;
     // position: relative;
     z-index: 999;
     top: 0;
+    transition: transform 0.3s ease-in-out;
+
+    &.hide {
+        transform: translateY(-100%);
+    }
+
+    &.show {
+        transform: translateY(0);
+    }
 
     .h-row {
         @include flex-between();
@@ -1774,11 +1784,12 @@ header {
     }
 
     @include for-tablet() {
-        .section-title{
-            h2{
+        .section-title {
+            h2 {
                 font-size: 34px;
             }
         }
+
         .content-row {
             flex-direction: column;
             gap: 0;
@@ -1794,6 +1805,7 @@ header {
 
         .cv-button {
             margin-top: 50px;
+
             .download-button {
                 height: 100px;
                 width: 100px;
