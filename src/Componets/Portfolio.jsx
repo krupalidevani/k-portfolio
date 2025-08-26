@@ -66,7 +66,7 @@ export default function Portfolio() {
                                     <div className="hover-div">
                                         <Link to={'##'} className="view-btn">View project</Link>
                                     </div>
-                                    <img src="/images/p1.webp" alt="" />
+                                    <img src="/images/portfolio/1.png" alt="" />
                                 </div>
                                 <p>Mobile app design</p>
                                 <h2>LMS Digital Mobile Project</h2>
@@ -76,22 +76,132 @@ export default function Portfolio() {
                                    <div className="hover-div">
                                         <Link to={'##'} className="view-btn">View project</Link>
                                     </div>
-                                    <img src="/images/p2.webp" alt="" />
+                                    <img src="/images/portfolio/m4.png" alt="" />
+                                </div>
+                                <p>Website design</p>
+                                <h2>LMS Digital Mobile Project</h2>
+                            </div>
+                          <div className="portfolio-card">
+                                <div className="image">
+                                    <div className="hover-div">
+                                        <Link to={'##'} className="view-btn">View project</Link>
+                                    </div>
+                                    <img src="/images/portfolio/2.png" alt="" />
+                                </div>
+                                <p>Mobile app design</p>
+                                <h2>LMS Digital Mobile Project</h2>
+                            </div>
+                            <div className="portfolio-card">
+                                <div className="image">
+                                   <div className="hover-div">
+                                        <Link to={'##'} className="view-btn">View project</Link>
+                                    </div>
+                                    <img src="/images/portfolio/m2.png" alt="" />
                                 </div>
                                 <p>Website design</p>
                                 <h2>LMS Digital Mobile Project</h2>
                             </div>
                             <div className="portfolio-card">
                                 <div className="image">
-                                     <div className="hover-div">
+                                    <div className="hover-div">
                                         <Link to={'##'} className="view-btn">View project</Link>
                                     </div>
-                                    <img src="/images/p3.webp" alt="" />
+                                    <img src="/images/portfolio/3.png" alt="" />
                                 </div>
                                 <p>Mobile app design</p>
                                 <h2>LMS Digital Mobile Project</h2>
                             </div>
-
+                            <div className="portfolio-card">
+                                <div className="image">
+                                   <div className="hover-div">
+                                        <Link to={'##'} className="view-btn">View project</Link>
+                                    </div>
+                                    <img src="/images/portfolio/m3.png" alt="" />
+                                </div>
+                                 <p>Mobile App Design</p>
+                                <h2>LMS Digital Mobile Project</h2>
+                            </div>
+                            <div className="portfolio-card">
+                                <div className="image">
+                                    <div className="hover-div">
+                                        <Link to={'##'} className="view-btn">View project</Link>
+                                    </div>
+                                    <img src="/images/portfolio/4.png" alt="" />
+                                </div>
+                                <p>Mobile app design</p>
+                                <h2>LMS Digital Mobile Project</h2>
+                            </div>
+                            <div className="portfolio-card">
+                                <div className="image">
+                                   <div className="hover-div">
+                                        <Link to={'##'} className="view-btn">View project</Link>
+                                    </div>
+                                    <img src="/images/portfolio/m1.png" alt="" />
+                                </div>
+                                 <p>Mobile App Design</p>
+                                <h2>LMS Digital Mobile Project</h2>
+                            </div>
+                            <div className="portfolio-card">
+                                <div className="image">
+                                    <div className="hover-div">
+                                        <Link to={'##'} className="view-btn">View project</Link>
+                                    </div>
+                                    <img src="/images/portfolio/5.png" alt="" />
+                                </div>
+                                <p>Mobile app design</p>
+                                <h2>LMS Digital Mobile Project</h2>
+                            </div>
+                            <div className="portfolio-card">
+                                <div className="image">
+                                   <div className="hover-div">
+                                        <Link to={'##'} className="view-btn">View project</Link>
+                                    </div>
+                                    <img src="/images/portfolio/m8.png" alt="" />
+                                </div>
+                                <p>Mobile App Design</p>
+                                <h2>LMS Digital Mobile Project</h2>
+                            </div>
+                            <div className="portfolio-card">
+                                <div className="image">
+                                    <div className="hover-div">
+                                        <Link to={'##'} className="view-btn">View project</Link>
+                                    </div>
+                                    <img src="/images/portfolio/6.png" alt="" />
+                                </div>
+                                <p>Mobile app design</p>
+                                <h2>LMS Digital Mobile Project</h2>
+                            </div>
+                            <div className="portfolio-card">
+                                <div className="image">
+                                   <div className="hover-div">
+                                        <Link to={'##'} className="view-btn">View project</Link>
+                                    </div>
+                                    <img src="/images/portfolio/m3.png" alt="" />
+                                </div>
+                                 <p>Mobile App Design</p>
+                                <h2>LMS Digital Mobile Project</h2>
+                            </div>
+                            <div className="portfolio-card">
+                                <div className="image">
+                                    <div className="hover-div">
+                                        <Link to={'##'} className="view-btn">View project</Link>
+                                    </div>
+                                    <img src="/images/portfolio/7.png" alt="" />
+                                </div>
+                                <p>Mobile app design</p>
+                                <h2>LMS Digital Mobile Project</h2>
+                            </div>
+                            <div className="portfolio-card">
+                                <div className="image">
+                                   <div className="hover-div">
+                                        <Link to={'##'} className="view-btn">View project</Link>
+                                    </div>
+                                    <img src="/images/portfolio/m7.png" alt="" />
+                                </div>
+                                 <p>Mobile App Design</p>
+                                <h2>LMS Digital Mobile Project</h2>
+                            </div>
+                           
                         </Slider>
                     </div>
                 </div>

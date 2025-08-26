@@ -231,7 +231,7 @@ header {
 
     .side-menu {
         position: fixed;
-        height: 100%;
+        height: 100vh;
         width: 450px;
         top: 0;
         right: 0;
@@ -401,7 +401,7 @@ header {
 
             .menu-list {
                 position: fixed;
-                height: 100%;
+                height: 100vh;
                 width: 300px;
                 top: 0;
                 left: 0;
@@ -459,6 +459,7 @@ header {
     flex-direction: column;
     position: relative;
     overflow: hidden;
+    margin-top: 60px;
 
     @include for-small-desktop() {
         padding-inline: 50px
