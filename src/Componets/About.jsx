@@ -29,11 +29,11 @@ export default function About() {
                 </div>
                 <div className="container">
                     <div className="about-row">
-                        <div className="image">
+                        <div className="image" data-aos="fade-right">
                             <img src="/images/t3.jpg" alt="" />
                             {/* <img src="/images/krupali.jpeg" alt="" /> */}
                         </div>
-                        <div className="about-content">
+                        <div className="about-content" data-aos="fade-left">
                             <h2>Hello,<br /> I’m <span ref={typedElement}>Krupali</span> </h2>
                             <div className="sub-title">Creating compelling, user-friendly designs that bring brands to life.</div>
                             <div className="about-list">

@@ -1,16 +1,13 @@
 import React from 'react'
-import ArroUp from '../SvgImages/ArroUp'
-import { Link } from 'react-router-dom'
-
 export default function Resume() {
     return (
         <>
             <div className="resume-section p-8" id="resume">
                 <div className="container">
-                    <div className="section-title">
+                    <div className="section-title" data-aos="fade-up">
                         <h2>Resume</h2>
-                        <div className="content-row">
-                            <div className="col">
+                        <div className="content-row" data-aos="fade-up">
+                            <div className="col" >
                                 <div className="inner-col">
                                     <h3>Summary</h3>
                                     <p>Frontend Developer with 3 years of experience in creating responsive, user-friendly websites using React, SCSS, and modern design practices. Skilled at building seamless UI/UX for startups and growing businesses.</p></div>

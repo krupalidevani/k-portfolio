@@ -7,7 +7,7 @@ export default function HeroBanner() {
             <div className="hero-section p-8" id='home'>
                 <div className="scroll-text"><span>Scroll down</span><img src="/images/scroll-down.webp" alt="" /></div>
                 <div className="container">
-                    <div className="hero-content">
+                    <div className="hero-content" data-aos="fade-up">
                         <div>
                             <div className="sub-title">Helping Brands Worldwide with Creative Web Design (Available for Freelance) <ArroUp /></div>
                             <h1><span>Digital Experience </span><br />

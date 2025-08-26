@@ -29,7 +29,7 @@ export default function Header() {
     return () => {
       window.removeEventListener("scroll", controlHeader);
     };
-  }, [lastScrollY]);
+  },);
 
     
     return (

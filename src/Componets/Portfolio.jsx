@@ -54,11 +54,11 @@ export default function Portfolio() {
         <>
             <div className="poerfolio-section p-8" id="portfolio">
                 <div className="container">
-                    <div className="section-title">
+                    <div className="section-title" data-aos="fade-left">
                         <p><img src="/images/star.svg" alt="" /> Explore</p>
                         <h2>Recent Work <span>Portfolio</span></h2>
                     </div>
-                    <div className="portfolio-list">
+                    <div className="portfolio-list" data-aos="fade-up">
 
                         <Slider {...settings} className='demo'>
                             <div className="portfolio-card">

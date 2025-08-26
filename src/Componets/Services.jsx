@@ -7,12 +7,12 @@ export default function Services() {
             <div className="service-secion p-8" id='service'>
                 <div className="container">
                     <div className="section-title">
-                        <p className='top-title'><img src="/images/star.svg" alt="" /><span></span>Services<span></span><img src="/images/star.svg" alt="" /></p>
-                        <h2>Helping Your Business Grow with Design & Development</h2>
+                        <p className='top-title' data-aos="fade-up"><img src="/images/star.svg" alt="" /><span></span>Services<span></span><img src="/images/star.svg" alt="" /></p>
+                        <h2 data-aos="fade-up">Helping Your Business Grow with Design & Development</h2>
                     </div>
                     <div className="service-list">
                         <ul>
-                            <li>
+                            <li data-aos="fade-up">
                                 <div className='left-col'>
                                     <div className="service-title">
                                         <div className="count-no">1</div>
@@ -26,7 +26,7 @@ export default function Services() {
                                     <ArroUp />
                                 </div>
                             </li>
-                             <li>
+                             <li data-aos="fade-up">
                                 <div className='left-col'>
                                     <div className="service-title">
                                         <div className="count-no">2</div>
@@ -39,8 +39,8 @@ export default function Services() {
                                 <div className="arrow">
                                     <ArroUp />
                                 </div>
-                            </li>
-                             <li>
+                            </li >
+                             <li data-aos="fade-up">
                                 <div className='left-col'>
                                     <div className="service-title">
                                         <div className="count-no">3</div>
@@ -54,7 +54,7 @@ export default function Services() {
                                     <ArroUp />
                                 </div>
                             </li>
-                            <li>
+                            <li data-aos="fade-up">
                                 <div className='left-col'>
                                     <div className="service-title">
                                         <div className="count-no">4</div>
@@ -68,7 +68,7 @@ export default function Services() {
                                     <ArroUp />
                                 </div>
                             </li>
-                            <li>
+                            <li data-aos="fade-up">
                                 <div className='left-col'>
                                     <div className="service-title">
                                         <div className="count-no">5</div>
@@ -82,7 +82,7 @@ export default function Services() {
                                     <ArroUp />
                                 </div>
                             </li>
-                            <li>
+                            <li data-aos="fade-up">
                                 <div className='left-col'>
                                     <div className="service-title">
                                         <div className="count-no">6</div>
@@ -96,7 +96,7 @@ export default function Services() {
                                     <ArroUp />
                                 </div>
                             </li>
-                            <li>
+                            <li data-aos="fade-up">
                                 <div className='left-col'>
                                     <div className="service-title">
                                         <div className="count-no">7</div>
@@ -110,7 +110,7 @@ export default function Services() {
                                     <ArroUp />
                                 </div>
                             </li>
-                            <li>
+                            <li data-aos="fade-up">
                                 <div className='left-col'>
                                     <div className="service-title">
                                         <div className="count-no">8</div>
