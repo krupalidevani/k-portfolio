@@ -30,7 +30,14 @@ export default function Header() {
       window.removeEventListener("scroll", controlHeader);
     };
   },);
-
+ 
+ useEffect(() => {
+  if (leftMenu || isActive) {
+    document.body.classList.add("no-scroll");
+  } else {
+    document.body.classList.remove("no-scroll");
+  }
+}, [leftMenu, isActive]);
     
     return (
         <>

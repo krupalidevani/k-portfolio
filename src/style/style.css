@@ -17,6 +17,9 @@ body {
   line-height: 1;
   overflow-x: hidden;
 }
+body.no-scroll {
+  overflow: hidden;
+}
 
 .container {
   max-width: 1805px;

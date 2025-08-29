@@ -1,9 +1,16 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import ArroUp from '../SvgImages/ArroUp'
 import TabletPreview from './TabletPreview';
 
 export default function HeroBanner() {
     const [showPreview, setShowPreview] = useState(false);
+    useEffect(() => {
+        if (showPreview) {
+            document.body.classList.add("no-scroll");
+        } else {
+            document.body.classList.remove("no-scroll");
+        }
+    }, [showPreview]);
     return (
         <>
             <div className="hero-section p-8" id='home' data-aos="fade-up">
@@ -89,7 +96,7 @@ export default function HeroBanner() {
                         <button className="close" onClick={() => setShowPreview(false)}>
                             ✖
                         </button>
-                       <TabletPreview />
+                        <TabletPreview />
                     </div>
                 </div>
             )}
