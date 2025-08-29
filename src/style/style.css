@@ -74,6 +74,12 @@ header {
 header.hide {
   transform: translateY(-100%);
 }
+header.hide .side-menu.active {
+  transform: translateY(74px) translateX(0);
+}
+header.hide .h-row .menu-list.active {
+  transform: translateY(74px) translateX(0);
+}
 header.show {
   transform: translateY(0);
 }
@@ -1476,6 +1482,9 @@ header .side-menu .social-icon li i {
   width: 100%;
   height: 100%;
   border: none;
+}
+.tablet-frame iframe .hero-content {
+  pointer-events: none;
 }
 
 ::-webkit-scrollbar {

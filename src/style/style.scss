@@ -123,8 +123,21 @@ header {
     top: 0;
     transition: transform 0.3s ease-in-out;
 
+
     &.hide {
         transform: translateY(-100%);
+        .side-menu{
+            &.active{
+                transform: translateY(74px) translateX(0);
+            }
+        }
+        .h-row{
+            .menu-list{
+                &.active{
+                    transform: translateY(74px) translateX(0);
+                }
+            }
+        }
     }
 
     &.show {
@@ -1857,7 +1870,8 @@ header {
             border-radius: 6px;
             cursor: pointer;
         }
-        @include for-phone(){
+
+        @include for-phone() {
             left: 0;
             right: 0;
             transform: translateY(-50%);
@@ -1870,7 +1884,8 @@ header {
     height: 90vh; // Tablet height
     border-radius: 20px;
     overflow: hidden;
-    @include for-phone(){
+
+    @include for-phone() {
         width: 90%;
         margin: auto;
     }
@@ -1879,6 +1894,11 @@ header {
         width: 100%;
         height: 100%;
         border: none;
+
+        // pointer-events: none;
+        .hero-content {
+            pointer-events: none;
+        }
     }
 
 }
