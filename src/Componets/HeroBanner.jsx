@@ -11,6 +11,8 @@ export default function HeroBanner() {
             document.body.classList.remove("no-scroll");
         }
     }, [showPreview]);
+    const isIframe = window.self !== window.top; // true if inside iframe
+
     return (
         <>
             <div className="hero-section p-8" id='home' data-aos="fade-up">
@@ -21,12 +23,14 @@ export default function HeroBanner() {
                             <div className="sub-title">Helping Brands Worldwide with Creative Web Design (Available for Freelance) <ArroUp /></div>
                             <h1><span>Digital Experience </span><br />
                                 <span className='designer-text' data-text="Designer">Designer</span></h1>
-                            <div className="video-play" onClick={() => setShowPreview(true)}>
+                            <button className="video-play"
+                            disabled={isIframe} 
+                            onClick={() => setShowPreview(true)}>
                                 <ArroUp />
                                 <div className="play-btn">
                                     <i class="fa-solid fa-play"></i>
                                 </div>
-                            </div>
+                            </button>
                         </div>
                         <div class="circle-dot">
                             <div class="step1">
