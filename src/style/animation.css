@@ -146,3 +146,62 @@
     clip-path: circle(125%);
   }
 }
+/* --------------------------------------------------------------------------- */
+
+
+@keyframes shadowRolling {
+  0% {
+    box-shadow: 0px 0 rgba(255, 255, 255, 0),
+                0px 0 rgba(255, 255, 255, 0),
+                0px 0 rgba(255, 255, 255, 0),
+                0px 0 rgba(255, 255, 255, 0);
+  }
+  12% {
+    box-shadow: 200px 0 var(--primary-color),
+                0px 0 rgba(255, 255, 255, 0),
+                0px 0 rgba(255, 255, 255, 0),
+                0px 0 rgba(255, 255, 255, 0);
+  }
+  25% {
+    box-shadow: 220px 0 var(--primary-color),
+                200px 0 var(--primary-color),
+                0px 0 rgba(255, 255, 255, 0),
+                0px 0 rgba(255, 255, 255, 0);
+  }
+  36% {
+    box-shadow: 240px 0 var(--primary-color),
+                220px 0 var(--primary-color),
+                200px 0 var(--primary-color),
+                0px 0 rgba(255, 255, 255, 0);
+  }
+  50% {
+    box-shadow: 260px 0 var(--primary-color),
+                240px 0 var(--primary-color),
+                220px 0 var(--primary-color),
+                200px 0 var(--primary-color);
+  }
+  62% {
+    box-shadow: 400px 0 rgba(255, 255, 255, 0),
+                260px 0 var(--primary-color),
+                240px 0 var(--primary-color),
+                220px 0 var(--primary-color);
+  }
+  75% {
+    box-shadow: 400px 0 rgba(255, 255, 255, 0),
+                400px 0 rgba(255, 255, 255, 0),
+                260px 0 var(--primary-color),
+                240px 0 var(--primary-color);
+  }
+  87% {
+    box-shadow: 400px 0 rgba(255, 255, 255, 0),
+                400px 0 rgba(255, 255, 255, 0),
+                400px 0 rgba(255, 255, 255, 0),
+                260px 0 var(--primary-color);
+  }
+  100% {
+    box-shadow: 400px 0 rgba(255, 255, 255, 0),
+                400px 0 rgba(255, 255, 255, 0),
+                400px 0 rgba(255, 255, 255, 0),
+                400px 0 rgba(255, 255, 255, 0);
+  }
+}

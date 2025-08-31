@@ -11,6 +11,7 @@ import Services from './Componets/Services';
 import Portfolio from './Componets/Portfolio';
 import Resume from './Componets/Resume';
 import { useEffect } from 'react';
+import PageLoader from './Componets/PageLoader';
 
 function App() {
    useEffect(() => {
@@ -21,6 +22,7 @@ function App() {
   }, []);
   return (
     <>
+      <PageLoader />
       <Header />
       <HeroBanner />
       <MarqueeText />
