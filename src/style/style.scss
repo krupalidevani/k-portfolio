@@ -71,9 +71,10 @@ body {
     font-family: 'Kanit', sans-serif;
     line-height: 1;
     overflow-x: hidden;
+
     &.no-scroll {
-     overflow: hidden;
-   }
+        overflow: hidden;
+    }
 }
 
 .container {
@@ -129,14 +130,16 @@ header {
 
     &.hide {
         transform: translateY(-100%);
-        .side-menu{
-            &.active{
+
+        .side-menu {
+            &.active {
                 transform: translateY(74px) translateX(0);
             }
         }
-        .h-row{
-            .menu-list{
-                &.active{
+
+        .h-row {
+            .menu-list {
+                &.active {
                     transform: translateY(74px) translateX(0);
                 }
             }
@@ -829,10 +832,10 @@ header {
 
         .scroll-text {
             font-size: 14px;
-            left: -10%;
+            left: -11.5%;
 
             &.right {
-                right: -10%;
+                right: -11.5%;
             }
         }
     }
@@ -1880,6 +1883,11 @@ header {
             left: 0;
             right: 0;
             transform: translateY(-50%);
+
+            .close {
+                right: 10px;
+                top: -15px;
+            }
         }
     }
 }
@@ -1906,7 +1914,8 @@ header {
 ::-webkit-scrollbar {
     width: 0px;
 }
-.page-loader{
+
+.page-loader {
     position: fixed;
     inset: 0;
     width: 100%;
@@ -1914,23 +1923,24 @@ header {
     background-color: #0000005d;
     z-index: 999999;
     backdrop-filter: blur(5px);
-    .loader-wrapper{
+
+    .loader-wrapper {
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%,-50%);
-       
-.loader {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  display: block;
-  margin: 15px auto;
-  position: relative;
-  color: var(--primary-color);
-  left: -200px;
-  box-sizing: border-box;
-  animation: shadowRolling 2s linear infinite;
-}
-}
+        transform: translate(-50%, -50%);
+
+        .loader {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            display: block;
+            margin: 15px auto;
+            position: relative;
+            color: var(--primary-color);
+            left: -200px;
+            box-sizing: border-box;
+            animation: shadowRolling 2s linear infinite;
+        }
+    }
 }
